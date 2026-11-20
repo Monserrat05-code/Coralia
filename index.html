@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coralia | Protegiendo el océano</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e8f7fa;
+            color: #164b5c;
+        }
+
+        header {
+            background-color: #a3c9d1;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            width: 100px;
+        }
+
+        header h1 {
+            color: #005a7d;
+            margin-bottom: 5px;
+        }
+
+        nav {
+            background-color: #005a7d;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffc2ce;
+        }
+
+        .principal {
+            background-color: #c8e8ec;
+            text-align: center;
+            padding: 45px 20px;
+        }
+
+        .principal h2 {
+            color: #005a7d;
+            font-size: 30px;
+        }
+
+        .principal p {
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.7;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #005a7d;
+            text-align: center;
+        }
+
+        .tarjetas {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+
+        .tarjeta {
+            background-color: white;
+            width: 280px;
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 3px 10px #b4d5dc;
+        }
+
+        .tarjeta img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .tarjeta h3 {
+            color: #005a7d;
+        }
+
+        .tarjeta p {
+            padding: 0 15px;
+            line-height: 1.5;
+        }
+
+        .seccion {
+            background-color: white;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 15px;
+            line-height: 1.7;
+        }
+
+        .seccion img {
+            display: block;
+            width: 60%;
+            max-width: 450px;
+            margin: 20px auto;
+            border-radius: 12px;
+        }
+
+        .seccion h2 {
+            text-align: left;
+        }
+
+        .destacado {
+            background-color: #ffc2ce;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        footer {
+            background-color: #005a7d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            .seccion img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="coralia.jpeg" alt="Logo de Coralia">
+        <h1>CORALIA</h1>
+        <p>Tecnología para proteger la vida marina</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#tecnologia">Tecnología</a>
+        <a href="#veracruz">Veracruz</a>
+        <a href="#nosotros">Nosotros</a>
+    </nav>
+
+    <div class="principal" id="inicio">
+        <h2>¡Cuidemos nuestros océanos!</h2>
+
+        <p>
+            En Coralia creamos drones acuáticos autónomos inspirados
+            en los pulpos y alimentados con energía solar. Estos ayudan
+            a limpiar las costas veracruzanas de microplásticos y aceite,
+            mientras utilizan inteligencia artificial para vigilar la
+            calidad del agua y proteger los arrecifes de coral.
+        </p>
+    </div>
+
+    <main>
+
+        <h2>Conoce nuestro proyecto</h2>
+
+        <div class="tarjetas">
+
+            <div class="tarjeta">
+                <img src="drones.jpeg" alt="Drones submarinos">
+
+                <h3>Drones submarinos</h3>
+
+                <p>
+                    Imitan la forma y el movimiento de los pulpos
+                    para desplazarse por el agua sin dañar a los
+                    animales marinos.
+                </p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="vera.jpeg" alt="Costas de Veracruz">
+
+                <h3>Costas de Veracruz</h3>
+
+                <p>
+                    Buscamos ayudar a combatir la contaminación
+                    y proteger los arrecifes de coral de nuestras costas.
+                </p>
+            </div>
+
+            <div class="tarjeta">
+                <img src="buzo.jpeg" alt="Protección marina">
+
+                <h3>Nuestro propósito</h3>
+
+                <p>
+                    Trabajamos para reducir la contaminación marina
+                    y conservar los ecosistemas submarinos.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="seccion" id="tecnologia">
+
+            <h2>Nuestra tecnología</h2>
+
+            <p>
+                Nuestros drones cuentan con diferentes herramientas
+                que les permiten ayudar a cuidar el océano.
+                Su movimiento suave reduce el riesgo de dañar
+                a los peces y las tortugas.
+            </p>
+
+            <ul>
+                <li>
+                    <b>Energía solar y limpieza:</b>
+                    Funcionan con energía solar y tienen filtros
+                    para recoger microplásticos y residuos de aceite.
+                </li>
+
+                <li>
+                    <b>Sensores e inteligencia artificial:</b>
+                    Miden la temperatura, la salinidad y el pH del agua
+                    para detectar posibles riesgos.
+                </li>
+
+                <li>
+                    <b>Bio-arrecifes:</b>
+                    Creamos estructuras impresas en 3D con materiales
+                    biodegradables que favorecen el crecimiento
+                    de nuevas colonias de coral.
+                </li>
+            </ul>
+
+            <img src="octo.jpeg" alt="Tecnología de Coralia">
+
+        </div>
+
+        <div class="seccion" id="veracruz">
+
+            <h2>Impacto en Veracruz</h2>
+
+            <p>
+                Las costas de Veracruz enfrentan problemas como
+                la contaminación por plásticos, los derrames de aceite
+                y el blanqueamiento de los corales.
+                Coralia busca ayudar a proteger estos ecosistemas
+                mediante el uso de drones y tecnología inteligente.
+            </p>
+
+            <img src="coral.jpeg" alt="Arrecifes de coral">
+
+            <h3>Zonas que queremos proteger:</h3>
+
+            <ul>
+                <li>Costa de Oro: contaminación por microplásticos.</li>
+                <li>Playa Chachalacas: residuos relacionados con el turismo.</li>
+                <li>Antón Lizardo: derrames de aceite y residuos portuarios.</li>
+            </ul>
+
+            <p>
+                Con nuestros drones buscamos detectar y reducir
+                la contaminación para conservar la vida marina.
+            </p>
+
+        </div>
+
+        <div class="seccion" id="nosotros">
+
+            <h2>¿Quiénes somos?</h2>
+
+            <p>
+                Nuestra empresa nace con el propósito de detener
+                el blanqueamiento de los arrecifes y la contaminación
+                marina mediante la ingeniería ambiental y la
+                inteligencia artificial.
+            </p>
+
+            <h3>Nuestra comunidad</h3>
+
+            <p>
+                Colaboramos con científicos locales para compartir
+                información que ayude al estudio y protección de
+                los arrecifes. También apoyamos a los pescadores
+                veracruzanos, brindándoles información sobre las
+                condiciones del agua.
+            </p>
+
+            <img src="pesca.jpeg" alt="Comunidad pesquera">
+
+            <div class="destacado">
+                <h3>Nuestra misión</h3>
+
+                <p>
+                    Desarrollar tecnología para limpiar, monitorear
+                    y restaurar los arrecifes del Golfo de México.
+                </p>
+
+                <h3>Nuestra visión</h3>
+
+                <p>
+                    Ser una empresa líder en tecnología marina
+                    para proteger los ecosistemas coralinos de México.
+                </p>
+            </div>
+
+            <img src="biocoral.jpeg" alt="Restauración de corales">
+
+        </div>
+
+    </main>
+
+    <footer>
+        <h3> CORALIA </h3>
+        <p>Protegiendo el océano, construyendo un futuro mejor.</p>
+        <p>Proyecto escolar | 3.º de secundaria</p>
+    </footer>
+
+</body>
+</html>
